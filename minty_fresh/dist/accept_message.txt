@@ -1,0 +1,17 @@
+---
+subject: Message Accepted to, <!-- tmpl_var list_settings.list_name -->, subject, <!-- tmpl_var message_subject -->
+---
+
+Message Accepted!
+
+Thanks for contributing! 
+
+Your recent message sent to 
+
+	<!-- tmpl_var list_settings.list_name --> 
+
+with the subject of, 
+
+	<!-- tmpl_var message_subject -->
+
+has been accepted.

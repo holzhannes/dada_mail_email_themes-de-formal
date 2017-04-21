@@ -1,0 +1,15 @@
+---
+subject: Profile Email Update Notification, From: <!-- tmpl_var profile.prev_email -->, To: <!-- tmpl_var profile.email -->
+---
+
+Hello, a Profile's address has been updated from: 
+
+	<!-- tmpl_var profile.prev_email -->
+	
+to: 
+
+	<!-- tmpl_var profile.email -->
+
+This change will have affected all mailing lists that this is allowed, 
+
+-- <!-- tmpl_var PROGRAM_NAME -->

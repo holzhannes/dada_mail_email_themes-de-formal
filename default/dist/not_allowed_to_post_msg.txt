@@ -1,0 +1,25 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Subscriber
+from_phrase: <!-- tmpl_var list_settings.list_name --> Owner
+subject: <!-- tmpl_var subscriber.email --> not allowed to post on, <!-- tmpl_var list_settings.list_name -->
+---
+
+
+List: <!-- tmpl_var list_settings.list_name --> (<!-- tmpl_var list_settings.discussion_pop_email -->)
+From: <!-- tmpl_var subscriber.email -->
+Subject: <!-- tmpl_var original_subject --> 
+
+Your message was received, but was not sent out to this mailing list, most likely 
+because you are not currently a subscriber. 
+
+
+Please see: 
+
+	<!-- tmpl_var PROGRAM_URL -->/list/<!-- tmpl_var list_settings.list -->
+
+for more information. 
+
+You may email the List Owner at: 
+
+mailto:<!-- tmpl_var list_settings.list_owner_email -->
+

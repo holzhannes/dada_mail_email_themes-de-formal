@@ -1,0 +1,23 @@
+---
+to_phase: <!-- tmpl_var list_settings.list_name --> Owner
+from_phrase: <!-- tmpl_var list_settings.list_name --> Subscriber
+subject: Abuse Reported on <!-- tmpl_var list_settings.list_name --> (<!--tmpl_var list_settings.list -->) by <!-- tmpl_var subscriber.email -->
+---
+
+The following address: 
+
+    <!-- tmpl_var subscriber.email --> 
+    
+has reported abuse pertaining to your mailing list: 
+
+    <!-- tmpl_var list_settings.list_name --> (<!-- tmpl_var list_settings.list -->)
+    
+Remove this address: 
+
+    <!-- tmpl_var list_unsubscribe_request_approve_link -->
+    
+Their report is below: 
+
+<!-- tmpl_var abuse_report_details -->
+
+- <!-- tmpl_var PROGRAM_NAME -->

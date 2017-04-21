@@ -1,0 +1,9 @@
+---
+subject: Profile Authorization Code for, <!-- tmpl_var profile.email -->
+---
+
+Hello, here's the authorization link to activate your <!-- tmpl_var PROGRAM_NAME --> Profile: 
+
+<!-- tmpl_var app.profile_activation_link --> 
+
+-- <!-- tmpl_var PROGRAM_NAME --> 

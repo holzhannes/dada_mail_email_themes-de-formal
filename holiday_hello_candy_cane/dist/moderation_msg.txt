@@ -1,0 +1,17 @@
+---
+subject: <!-- tmpl_var list_settings.list_name --> moderation needed (original message attached)
+---
+
+The attached message needs to be moderated:
+
+    List:    <!-- tmpl_var list_settings.list_name -->
+    From:    <!-- tmpl_var subscriber.email -->
+    Subject: <!-- tmpl_var message_subject -->
+
+To approve sending this message to the list, click here: 
+
+    <!-- tmpl_var moderation_confirmation_link -->
+    
+To deny sending this message to the list, click here: 
+
+    <!-- tmpl_var moderation_deny_link -->

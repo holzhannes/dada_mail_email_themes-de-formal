@@ -1,0 +1,25 @@
+---
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+to_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: <!-- tmpl_var archived_message_subject --> (Archive)
+---
+
+Hello, 
+
+On behalf of: <!-- tmpl_var from_email -->, the following archived message from: 
+
+<!-- tmpl_var list_settings.list_name --> 
+
+has been sent to you. They wrote: 
+
+<!-- tmpl_var note -->
+
+The archived message is below. 
+
+You may subscribe to <!-- tmpl_var list_settings.list_name --> by following this link:
+
+<!-- tmpl_var list_subscribe_link -->
+
+If you cannot view the archived message, please visit: 
+
+<!-- tmpl_var archive_message_url -->

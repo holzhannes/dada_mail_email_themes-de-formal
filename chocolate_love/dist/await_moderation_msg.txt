@@ -1,0 +1,15 @@
+---
+subject: Message to <!-- tmpl_var list_settings.list_name --> w/ Subject <!-- tmpl_var message_subject --> is awaiting approval.
+---
+
+Awaiting Approval
+
+Thanks for contributing! Your recent message to 
+
+	<!-- tmpl_var list_settings.list_name -->
+
+with the subject of
+
+	<!-- tmpl_var message_subject --> 
+
+will need to be approved before being sent out to the mailing list. 
