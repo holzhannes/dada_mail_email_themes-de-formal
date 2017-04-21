@@ -1,0 +1,25 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject: Test der Einstellungen für <!-- tmpl_var list_settings.list_name -->
+---
+
+Guten Tag, <!-- tmpl_var list_settings.list_owner_email -->, 
+
+diese Nachricht wurde von <!-- tmpl_var PROGRAM_NAME --> gesendet, um die Versandeinstellungen der folgenden Mailing-Liste zu testen: 
+
+		<!-- tmpl_var list_settings.list_name --> 
+		
+Wenn Sie diese Nachricht erhalten haben, scheint der Versand zu funktionieren. 
+
+<!-- tmpl_if expr="(list_settings.sending_method eq 'sendmail')" --> 
+	* Mail wurde über den Befehl sendmail gesendet
+<!--/tmpl_if -->
+<!-- tmpl_if expr="(list_settings.sending_method eq 'smtp')" --> 
+	* Mail wurde über SMTP gesendet
+<!--/tmpl_if --> 
+<!-- tmpl_if expr="(list_settings.sending_method eq 'amazon_ses')" --> 
+	* Mail wurde per Amazon Simple Email Service gesendet
+<!--/tmpl_if -->
+
+-- <!-- tmpl_var PROGRAM_NAME -->

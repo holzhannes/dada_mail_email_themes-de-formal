@@ -1,0 +1,35 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name -->
+from_phrase: <!-- tmpl_var list_settings.list_name --> Listen-Inhaber
+subject: Sie wurden eingeladen die folgende Mailing-Liste zu abonnieren: "<!-- tmpl_var list_settings.list_name -->"
+---
+
+Guten Tag,
+
+der Listen-Inhaber von "<!-- tmpl_var list_settings.list_name -->" (<!-- tmpl_var list_settings.list_owner_email -->) hat Sie eingeladen die Mailing-Liste zu abonnieren.
+ 
+* Hier ist eine kurze Beschreibung der Mailing-Liste: 
+
+<!-- tmpl_var list_settings.info --> 
+
+* Wenn Sie sich anmelden möchten, klicken Sie einfach auf den untenstehenden Link: 
+<!-- tmpl_var list_confirm_subscribe_link --> 
+
+<!-- tmpl_if list_settings.group_list --> 
+* Diese Mailingliste ist eine Gruppendiskussion-Liste <!-- tmpl_if list_settings.enable_moderation -->(moderiert)<!-- tmpl_else -->(unmoderiert)<!-- /tmpl_if -->. Sobald Sie die Liste abonniert haben, können Sie E-Mails darüber versenden, indem Sie diese an <!-- tmpl_var list_settings.discussion_pop_email --> senden. 
+<!-- tmpl_else --> 
+* Diese Mailing-Liste ist eine Ankündigungs-Mailingliste (Newsletter). 
+<!-- /tmpl_if --> 
+
+* Sie möchten mehr Informationen? Besuchen Sie:
+<!-- tmpl_var PROGRAM_URL -->/list/<!-- tmpl_var list_settings.list -->/
+
+* Datenschutzerklärung: 
+<!-- tmpl_var list_settings.privacy_policy -->
+
+* Kontakt:
+<!-- tmpl_var list_settings.physical_address -->
+
+Danke! 
+
+- <!-- tmpl_var list_settings.list_owner_email -->

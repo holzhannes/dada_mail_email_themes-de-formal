@@ -1,0 +1,19 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name -->
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: Abgemeldet von: <!-- tmpl_var list_settings.list_name -->
+---
+
+Guten Tag, 
+
+die folgende E-Mail-Adresse: 
+
+	<!-- tmpl_var subscriber.email -->
+	
+wurde aus Mailing-Liste gelöscht: 
+
+	<!-- tmpl_var list_settings.list_name --> 
+
+Datum des Löschvorgangs: <!-- tmpl_var date --> 
+
+- mailto:<!-- tmpl_var list_settings.list_owner_email -->

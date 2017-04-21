@@ -1,0 +1,14 @@
+---
+subject: <!-- tmpl_var list_settings.list_name --> Listenverwaltung Abmeldungen
+---
+
+Die folgenden E-Mail-Adressen haben sich von der Mailing-Liste: <!-- tmpl_var list_settings.list_name --> abgemeledet:
+
+<!-- tmpl_loop addresses -->
+	<!-- tmpl_var subscriber.email --> 
+    <!-- tmpl_loop subscriber -->
+		* <!-- tmpl_var name -->: <!-- tmpl_var value -->
+    <!-- /tmpl_loop -->
+<!-- /tmpl_loop -->
+
+- <!-- tmpl_var PROGRAM_NAME -->

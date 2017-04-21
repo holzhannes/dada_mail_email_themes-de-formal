@@ -1,0 +1,21 @@
+---
+subject: <!-- tmpl_var subscriber.email --> möchte aus der Mailing-Liste <!-- tmpl_var list_settings.list_name --> gelöscht werden
+---
+
+die folgende E-Mail-Adresse:
+
+	<!-- tmpl_var subscriber.email -->
+
+möchte aus folgender Mailing-Liste gelöscht werden:
+
+	<!-- tmpl_var list_settings.list_name -->
+	
+Um die Abmeldung zu genehmigen folgen Sie bitte diesem Link: 
+	
+	<!-- tmpl_var list_unsubscribe_request_approve_link --> 
+	
+Um die Abmeldung zu verweigern folgen Sie bitte diesem Link: 
+
+	<!-- tmpl_var list_unsubscribe_request_deny_link --> 
+
+-- <!-- tmpl_var PROGRAM_NAME -->

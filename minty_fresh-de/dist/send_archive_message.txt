@@ -1,0 +1,25 @@
+---
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+to_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: <!-- tmpl_var archived_message_subject --> (Archiv)
+---
+
+Guten Tag, 
+
+im Auftrag von: <!-- tmpl_var from_email --> erhalten Sie die folgenden archivierten Nachrichten: 
+
+<!-- tmpl_var list_settings.list_name --> 
+
+Es schrieben: 
+
+<!-- tmpl_var note -->
+
+Es folgen die archivierten Nachricht: 
+
+Sie können die Mailing-Liste <!-- tmpl_var list_settings.list_name --> unter folgendem Link abonnieren:
+
+<!-- tmpl_var list_subscribe_link -->
+
+Wenn Sie die archivierten Nachricht nicht anzeigen können, besuchen Sie bitte: 
+
+<!-- tmpl_var archive_message_url -->

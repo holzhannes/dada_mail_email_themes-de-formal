@@ -1,0 +1,17 @@
+---
+subject: Nachricht an <!-- tmpl_var list_settings.list_name --> mit Betreff: <!-- tmpl_var message_subject --> wurde akzeptiert 
+---
+
+Nachricht akzeptiert!
+
+Vielen Dank fürs Mittmachen! 
+
+Ihre Nachricht an: 
+
+	<!-- tmpl_var list_settings.list_name --> 
+
+mit dem Betreff: 
+
+	<!-- tmpl_var message_subject -->
+
+wurde akzeptiert.

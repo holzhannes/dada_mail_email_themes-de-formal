@@ -1,0 +1,29 @@
+
+<h1><!-- tmpl_var num_messages --> Nachricht(en)</h1>
+
+<ul>
+<!-- tmpl_loop digest_messages -->
+<li>
+    <a href="#digest_<!-- tmpl_var archive_id -->">
+        <!-- tmpl_var subject -->
+    </a>
+    von, 
+    <!-- tmpl_var subscriber.email --> 
+    (<!-- tmpl_var date -->)
+<!-- /tmpl_loop -->
+</li>
+<!-- tmpl_loop digest_messages -->
+</ul>
+
+<p>
+<a name="digest_<!-- tmpl_var archive_id -->"></a>
+<strong>Datum:</strong> <!-- tmpl_var date --><br>
+<strong>Von:</strong> <!-- tmpl_var subscriber.email --><br>
+<strong>Betreff:</strong> <!-- tmpl_var subject --></p>
+<p>
+<!-- tmpl_var html_message -->
+</p>
+<hr>
+
+<!-- /tmpl_loop -->
+

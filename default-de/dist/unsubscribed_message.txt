@@ -1,0 +1,33 @@
+---
+subject: Abschiedsgruß von <!-- tmpl_var list_settings.list_name -->
+---
+
+Das löschen der E-Mail-Adresse:
+
+	<!-- tmpl_var subscriber.email -->
+	
+aus der folgenden Mailing-Liste: 
+
+	<!-- tmpl_var list_settings.list_name --> 
+
+ist abgeschlossen.
+
+Sofern Sie möchten, können Sie diese E-Mail-Nachricht als zukünftige Referenz behalten. 
+
+-----------------------------------------------------------------------
+
+Datum des Löschvorgangs: <!-- tmpl_var date --> 
+
+Sie können die Mailing-Liste jederzeit erneut abonnieren indem Sie diesem Link folgen:
+
+<!-- tmpl_var PROGRAM_URL -->/list/<!-- tmpl_var list_settings.list -->
+
+Wenn Sie Fragen oder Probleme haben, können Sie den Mailing-Listen-Inhaber dieser Mailing-Liste per E-Mail kontaktieren: 
+
+	mailto:<!-- tmpl_var list_settings.list_owner_email -->
+
+Der folgende Kontakt ist für die Mailing-Liste verantwortlich: 
+
+<!-- tmpl_var list_settings.physical_address -->
+
+- mailto:<!-- tmpl_var list_settings.list_owner_email -->

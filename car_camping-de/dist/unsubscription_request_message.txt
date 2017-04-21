@@ -1,0 +1,24 @@
+Guten Tag, 
+
+bitte verwenden Sie diesen Link:
+
+	<!-- tmpl_var list_unsubscribe_link -->
+
+um die E-Mail-Adresse: 
+
+	<!-- tmpl_var subscriber.email -->
+
+ aus der folgenden Mailing-Liste zu löschen: 
+
+	<!-- tmpl_var list_settings.list_name -->
+
+Um den Inhaber der Mailing-Liste zu kontaktieren, verwenden Sie bitte die unten angegebene Adresse: 
+
+mailto:<!-- tmpl_var list_settings.list_owner_email -->
+
+Der folgende Kontakt ist für die Mailing-Liste verantwortlich: 
+
+<!-- tmpl_var list_settings.physical_address -->
+
+
+- mailto:<!-- tmpl_var list_settings.list_owner_email -->

@@ -1,0 +1,23 @@
+---
+to_phase: <!-- tmpl_var list_settings.list_name --> Inhaber
+from_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+subject: Missbrauch gemeldet auf <!-- tmpl_var list_settings.list_name --> (<!--tmpl_var list_settings.list -->) von <!-- tmpl_var subscriber.email -->
+---
+
+Folgende Adresse: 
+
+    <!-- tmpl_var subscriber.email --> 
+    
+verwendet die folgende Mailing-Liste nicht ordnungsgemäß:  
+
+    <!-- tmpl_var list_settings.list_name --> (<!-- tmpl_var list_settings.list -->)
+    
+E-Mail-Adresse aus der Mailing-Liste löschen: 
+
+    <!-- tmpl_var list_unsubscribe_request_approve_link -->
+    
+Bericht folgt unterhalb: 
+
+<!-- tmpl_var abuse_report_details -->
+
+- <!-- tmpl_var PROGRAM_NAME -->

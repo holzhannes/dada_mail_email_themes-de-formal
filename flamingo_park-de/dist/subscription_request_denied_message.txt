@@ -1,0 +1,15 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject: <!-- tmpl_var list_settings.list_name --> Mailing-Listen Abonnement wurde verweigert.
+---
+
+Guten Tag,
+
+Sie haben ein Abonnement für folgende Mailing-Liste angefragt: 
+
+	<!-- tmpl_var list_settings.list_name --> 
+	
+Der Listen-Inhaber hat die Anfrage für das Abonnement leider abgelehnt. 
+
+-- mailto:<!-- tmpl_var list_settings.list_owner_email --> 

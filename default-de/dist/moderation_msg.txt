@@ -1,0 +1,17 @@
+---
+subject: <!-- tmpl_var list_settings.list_name --> moderation erforderlich (ursprüngliche Nachricht beigefügt)
+---
+
+Die angehängte Nachricht muss moderiert werden:
+
+    Liste:    <!-- tmpl_var list_settings.list_name -->
+    Von:    <!-- tmpl_var subscriber.email -->
+    Betreff: <!-- tmpl_var message_subject -->
+
+Um diese Nachricht an die Mailing-Liste freizugeben, klicken Sie hier: 
+
+    <!-- tmpl_var moderation_confirmation_link -->
+    
+Um diese Nachricht an die Mailing-Liste abzulehnen, klicken Sie hier: 
+
+    <!-- tmpl_var moderation_deny_link -->

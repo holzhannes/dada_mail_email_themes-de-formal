@@ -1,0 +1,24 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+preheader: Die Bestätigung ist nur ein Klick entfernt!
+subject: <!-- tmpl_var list_settings.list_name --> Abonnentbestätigung für Mailing-Liste
+---
+
+<!-- tmpl_var email.preheader -->
+
+Bereit zum Beitritt zu: <!-- tmpl_var list_settings.list_name -->?
+
+Klicken Sie hier, um Ihr Abonnement zu bestätigen:
+<!-- tmpl_var list_confirm_subscribe_link -->
+
+<!-- tmpl_var list_settings.info -->
+
+Ihre Privatsphäre ist uns wichtig:
+
+Diese E-Mail ist Teil der doppelten Bestätigung und wurde zum Schutz der
+Privatsphäre des Besitzers dieser E-Mail-Adresse (das sind Sie!) versendet.
+Die doppelte Bestätigung garantiert, dass sich nur der Besitzer einer E-Mail-Adresse für eine Mailing-Liste anmelden kann.
+
+Datenschutzerklärung für: <!-- tmpl_var list_settings.list_name -->:
+<!-- tmpl_var list_settings.privacy_policy -->

@@ -1,0 +1,25 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: <!-- tmpl_var list_settings.list_name --> Nachricht
+---
+
+<!-- tmpl_var email.preheader -->
+
+__ 
+
+<!-- tmpl_var message_body -->
+
+-- 
+<!-- tmpl_if list_settings.show_archives --><!-- tmpl_if list_settings.archive_send_form --> 
+E-Mail an einen Freund weiterleiten
+<!-- tmpl_var forward_to_a_friend_link -->
+<!-- /tmpl_if --><!-- /tmpl_if -->
+Abonnement-Erinnerung: Sie haben die folgende Mailing-Liste(n) abonniert: <!-- tmpl_var list_settings.list_name --> 
+und verwenden dafür die E-Mail-Adresse: <!-- tmpl_var subscriber.email -->
+
+Von: <!-- tmpl_var list_settings.list_owner_email -->
+<!-- tmpl_var list_settings.physical_address -->
+
+Sofort abmelden:
+<!-- tmpl_var list_unsubscribe_link -->

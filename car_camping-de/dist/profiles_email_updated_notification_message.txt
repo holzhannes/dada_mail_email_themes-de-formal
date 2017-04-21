@@ -1,0 +1,15 @@
+---
+subject: Profil E-Mail Update-Benachrichtigung, von: <!-- tmpl_var profile.prev_email --> an: <!-- tmpl_var profile.email -->
+---
+
+Guten Tag, die E-Mail-Adresse deines Profil wurde aktualisiert von:
+
+	<!-- tmpl_var profile.prev_email -->
+	
+auf: 
+
+	<!-- tmpl_var profile.email -->
+
+Diese Änderung wird für alle Mailing-Listen gelten für die diese Opertation zulässig ist, 
+
+-- <!-- tmpl_var PROGRAM_NAME -->

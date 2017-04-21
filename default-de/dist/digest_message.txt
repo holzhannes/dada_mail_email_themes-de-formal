@@ -1,0 +1,25 @@
+---
+to_phase: <!-- tmpl_var list_settings.list_name --> Inhaber
+from_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+subject: <!-- tmpl_var list_settings.list_name --> Zusammenfassung
+---
+
+Beginn der Zusammenfassung
+
+Anzahl der Nachrichten: <!-- tmpl_var num_messages -->
+
+<!-- tmpl_loop digest_messages -->
+* <!-- tmpl_var subject --> von <!-- tmpl_var subscriber.email --> (<!-- tmpl_var date -->)<!-- /tmpl_loop -->
+
+<!-- tmpl_loop digest_messages -->
+
+Datum: <!-- tmpl_var date -->
+Von: <!-- tmpl_var subscriber.email -->
+Betreff: <!-- tmpl_var subject -->
+---------------------------------------
+<!-- tmpl_var plaintext_message -->
+==============================================================================
+
+<!-- /tmpl_loop -->
+
+Ende der Zusammenfassung

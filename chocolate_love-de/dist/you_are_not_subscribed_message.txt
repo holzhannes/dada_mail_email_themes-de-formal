@@ -1,0 +1,23 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject:  <!-- tmpl_var list_settings.list_name --> - Sie haben die Mailing-Liste nicht abonniert
+---
+
+Guten Tag, 
+
+diese Nachricht wurde an Sie gesendet, da wir eine Anfrage erhalten haben die folgende E-Mail-Adresse: 
+
+<!-- tmpl_var subscriber.email -->
+
+aus der Mailing-Liste: 
+
+<!-- tmpl_var list_settings.list_name -->
+
+zu löschen. Diese E-Mail-Adresse hat die Mailing-Liste momentan jedoch nicht abonniert.
+
+Diese Nachricht wurde zum Schutz Ihrer Daten gesendet und dient zur Information. 
+
+Um den Inhaber der Mailing-Liste zu kontaktieren, verwenden Sie bitte die unten angegebene Adresse: 
+
+mailto:<!-- tmpl_var list_settings.list_owner_email -->

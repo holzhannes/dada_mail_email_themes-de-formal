@@ -1,0 +1,15 @@
+---
+subject: Nachricht an <! - tmpl_var list_settings.list_name -> mit dem Betreff: <! - tmpl_var message_subject -> wartet auf Genehmigung
+---
+
+Warten auf Genehmigung
+
+Vielen Dank fürs Mittmachen! Ihre E-Mail an 
+
+	<!-- tmpl_var list_settings.list_name -->
+
+mit dem Betreff: 
+
+	<!-- tmpl_var message_subject --> 
+
+muss genehmigt werden, bevor sie durch die Mailing-Liste verteilt werden kann. 

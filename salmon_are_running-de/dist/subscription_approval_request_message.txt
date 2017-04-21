@@ -1,0 +1,25 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Listen-Inhaber
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: "<!-- tmpl_var subscriber.email --> möchte <!-- tmpl_var list_settings.list_name --> abonnieren"
+---
+
+Guten Tag, 
+
+die folgende E-Mail-Adresse:
+
+	<!-- tmpl_var subscriber.email -->
+
+Möchte die folgende Mailing-Liste abonnieren: 
+
+	<!-- tmpl_var list_settings.list_name -->
+	
+Um das Abonnement zu genehmigen, folgen Sie diesem Link: 
+	
+	<!-- tmpl_var list_subscribe_request_approve_link --> 
+	
+Um dieses Abonnement verweigern, folgen Sie diesem Link: 
+
+	<!-- tmpl_var list_subscribe_request_deny_link --> 
+
+-- <!-- tmpl_var PROGRAM_NAME -->

@@ -1,0 +1,9 @@
+---
+subject: Profil Genehmigungs-Code für, <!-- tmpl_var profile.email -->
+---
+
+Guten Tag, hier ist der Genehmigungs-Link, um Ihre Profil bei <!-- tmpl_var PROGRAM_NAME --> zu aktivieren. 
+
+<!-- tmpl_var app.profile_activation_link --> 
+
+-- <!-- tmpl_var PROGRAM_NAME --> 

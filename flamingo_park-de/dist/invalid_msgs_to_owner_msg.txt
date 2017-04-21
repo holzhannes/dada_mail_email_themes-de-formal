@@ -1,0 +1,11 @@
+---
+subject: <!-- tmpl_var subscriber.email -->  ist es nicht gestattet über <!-- tmpl_var list_settings.list_name --> zu senden
+---
+
+Liste: <!-- tmpl_var list_settings.list_name --> (<!-- tmpl_var list_settings.discussion_pop_email -->)
+Von:  <!-- tmpl_var subscriber.email -->
+Betreff: <!-- tmpl_var original_subject --> 
+
+
+Eine Nachricht wurde empfangen, wurde aber nicht über die Mailing-Liste verteilt, wahrscheinlich
+weil <! - tmpl_var subscriber.email -> derzeit kein Abonnent ist. 

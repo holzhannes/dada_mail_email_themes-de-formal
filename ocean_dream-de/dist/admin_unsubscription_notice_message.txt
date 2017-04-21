@@ -1,0 +1,18 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name -->
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: Abmeldung: <!-- tmpl_var subscriber.email -->
+---
+
+Abmeldung:
+				
+	<!-- tmpl_var subscriber.email -->
+
+wurde gelöscht aus: 
+
+	<!-- tmpl_var list_settings.list_name -->
+
+Es gibt jetzt insgesamt <! - tmpl_var num_subscribers -> Abonnenten.
+
+Serverzeit: <!-- tmpl_var date -->
+IP-Adresse:   <!-- tmpl_var REMOTE_ADDR -->

@@ -1,0 +1,15 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject: <!-- tmpl_var list_settings.list_name --> Abmeldung von Mailing-Liste verweigert
+---
+
+Guten Tag, 
+
+Sie haben die Löschung aus folgender Mailing-Liste angefragt: 
+
+	<!-- tmpl_var list_settings.list_name --> 
+	
+Der Austrittsantrag wurde vom Listen-Inhaber verweigert. 
+
+-- mailto:<!-- tmpl_var list_settings.list_owner_email -->

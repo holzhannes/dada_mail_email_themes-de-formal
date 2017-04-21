@@ -1,0 +1,15 @@
+---
+subject: Nachricht an: <!-- tmpl_var list_settings.list_name -->  mit dem Betreff: <!-- tmpl_var original_subject --> wurde als SPAM markiert
+---
+
+Guten Tag <!-- tmpl_var subscriber.email -->, 
+
+wir haben eine Nachricht von Ihnen mit dem Betreff:
+
+	<!-- tmpl_var original_subject -->
+		
+erhalten, wir konnten diese nicht über die Mailing-Liste verteilen, weil diese vom Spam-Filter als verdächtig bewertet wurde. 
+
+Wenn Sie keine Nachricht mit dem Betreff gesendet haben, können Sie diese Nachricht ignorieren. 
+
+-- <!-- tmpl_var list_settings.list_owner_email -->

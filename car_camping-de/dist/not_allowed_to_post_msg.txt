@@ -1,0 +1,24 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject: <!-- tmpl_var subscriber.email -->  ist es nicht gestattet über <!-- tmpl_var list_settings.list_name --> zu senden
+---
+
+
+Liste: <!-- tmpl_var list_settings.list_name --> (<!-- tmpl_var list_settings.discussion_pop_email -->)
+Von: <!-- tmpl_var subscriber.email -->
+Betreff: <!-- tmpl_var original_subject --> 
+
+Ihre Nachricht wurde empfangen, wurde aber nicht über die Mailing-Liste verteilt, wahrscheinlich sind Sie derzeit kein Abonnent. 
+
+
+Bitte sehen Sie: 
+
+	<!-- tmpl_var PROGRAM_URL -->/list/<!-- tmpl_var list_settings.list -->
+
+für weitere Informationen. 
+
+Sie können den Listen-Inhaber über folgende E-Mail-Adresse erreichen: 
+
+mailto:<!-- tmpl_var list_settings.list_owner_email -->
+
