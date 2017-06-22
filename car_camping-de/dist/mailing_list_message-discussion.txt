@@ -1,6 +1,7 @@
 ---
 subject: <!-- tmpl_var list_settings.list_name --> Nachricht
 ---
+Von: <!-- tmpl_var sender.email -->
 
 <!-- tmpl_var message_body --> 
 
