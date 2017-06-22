@@ -1,0 +1,24 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject: <!-- tmpl_var list_settings.list_name --> Mailing-Liste bereits abonniert
+---
+
+Guten Tag, 
+
+diese Nachricht wurde an Sie gesendet, da eine Anfrage vorliegt die folgende E-Mail-Adresse: 
+
+<!-- tmpl_var subscriber.email -->
+
+zur Mailing-Liste: 
+
+<!-- tmpl_var list_settings.list_name -->
+
+aufzunehmen. Da diese E-Mail-Adresse die Mailing-Liste bereits abonniert hat, müssen Sie sich nicht noch einmal anmelden. Diese Nachricht wurde zum Schutz Ihrer Daten gesendet und dient zur Information. 
+
+Um den Inhaber der Mailing-Liste zu kontaktieren, verwenden Sie bitte die unten angegebene Adresse: 
+
+mailto:<!-- tmpl_var list_settings.list_owner_email -->
+
+
+- <!-- tmpl_var list_settings.list_owner_email -->

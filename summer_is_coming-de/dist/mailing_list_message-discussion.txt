@@ -1,0 +1,20 @@
+---
+subject: <!-- tmpl_var list_settings.list_name --> Nachricht
+---
+Von: <!-- tmpl_var sender.email -->
+
+<!-- tmpl_var message_body --> 
+
+-- 
+
+* E-Mail an die Mailing-Liste senden
+    mailto:<!-- tmpl_var list_settings.discussion_pop_email -->
+* Verwalten Sie Ihr Abonnement: 
+    <!-- tmpl_var PROGRAM_URL -->/profile_login/<!-- tmpl_var subscriber.email_name -->/<!-- tmpl_var subscriber.email_domain -->/
+<!-- tmpl_if list_settings.private_list -->
+* Abonnement beenden 
+	<!-- tmpl_var list_unsubscribe_link -->
+<!-- tmpl_else -->
+* Abmelden
+	<!-- tmpl_var list_unsubscribe_link -->
+<!-- /tmpl_if -->

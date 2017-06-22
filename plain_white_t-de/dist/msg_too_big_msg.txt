@@ -1,0 +1,21 @@
+---
+subject: E-Mail an: <!-- tmpl_var list_settings.list_name --> mit Betreff: <!-- tmpl_var original_subject --> abgelehnt
+---
+
+Guten Tag <!-- tmpl_var subscriber.email -->, 
+
+wir haben eine Nachricht von Ihnen mit dem Betreff:
+
+	<!-- tmpl_var original_subject -->
+		
+erhalten, aber konnten diese nicht über die Mailing-Liste: 
+
+	<!-- tmpl_var size_of_original_message --> kilobytes
+
+verteilen, da die E-Mail die maximal mögliche Größe überschreitet:  
+
+	<!-- tmpl_var list_settings.msg_soft_size_limit --> kilobytes
+
+Bitte versuchen Sie die Nachricht erneut zu versenden und reduzieren Sie vorher die Größe der E-Mail. 
+
+-- <!-- tmpl_var list_settings.list_owner_email -->

@@ -1,0 +1,27 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name --> Inhaber
+subject: "Abgemeldet von: <!-- tmpl_var list_settings.list_name --> wegen häufiger Zustellfehler"
+---
+
+Dies ist ein Hinweis, dass Ihre E-Mail-Adresse
+
+    <!-- tmpl_var subscriber.email -->
+    
+von folgender Mailing-Liste abgemeldet wurde:
+
+    <!-- tmpl_var list_settings.list_name -->
+    
+Nachrichten der Mailing-Liste an Ihre E-Mail-Adresse wurde zu häufig nicht zugestellt und sind als unzustellbar an uns zurück gekommen.
+
+Wenn dies fehlerhaft ist, abonnieren Sie diese Mailing-Liste bitte erneut, indem Sie diesem Link folgen: 
+
+    <!-- tmpl_var PROGRAM_URL -->/s/<!-- tmpl_var list_settings.list -->
+
+Wenn Sie Fragen oder Probleme haben, können Sie den Listen-Inhaber dieser Liste per E-Mail kontaktieren: 
+
+    <!-- tmpl_var list_settings.list_owner_email -->
+    
+für weitere Informationen. 
+
+- <!-- tmpl_var PROGRAM_NAME -->

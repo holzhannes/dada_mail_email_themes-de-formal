@@ -1,0 +1,26 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name -->
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: Neuer Abonnent: <!-- tmpl_var subscriber.email -->
+---
+
+Sie haben einen neuen Abonnenten!
+			
+	<!-- tmpl_var subscriber.email -->
+
+ist beigetreten: 
+				
+	<!-- tmpl_var list_settings.list_name -->					
+				
+Es gibt jetzt insgesamt <! - tmpl_var num_subscribers -> Abonnenten.
+
+Serverzeit: <!-- tmpl_var date -->
+IP-Adresse:   <!-- tmpl_var REMOTE_ADDR -->
+<!-- tmpl_var note -->
+
+<!-- tmpl_if subscriber -->Zusätzliche Abonnenteninformationen: 
+-----------------------------
+<!-- tmpl_loop subscriber --> 
+<!-- tmpl_var name -->: <!-- tmpl_var value -->
+
+<!-- /tmpl_loop -->-----------------------------<!--/tmpl_if-->

@@ -1,0 +1,17 @@
+---
+subject: Genehmigungs-Code für Profil aktualisierung für die E-Mail-Adresse: <!-- tmpl_var profile.email -->
+---
+
+Guten Tag, hier ist der Genehmigung-Link, um Ihre Profil E-Mail-Adresse bei <!-- tmpl_var PROGRAM_NAME --> zu aktualisieren. 
+
+	<!-- tmpl_var profile.email --> 
+	
+auf: 
+
+	<!-- tmpl_var profile.updated_email --> 
+	
+Bitte klicken Sie auf den folgenden Link um die Änderung durchzuführen: 	
+
+<!-- tmpl_var app.profile_update_email_link -->
+
+-- <!-- tmpl_var PROGRAM_NAME -->
