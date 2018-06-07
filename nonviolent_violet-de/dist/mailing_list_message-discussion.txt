@@ -9,12 +9,16 @@ Von: <!-- tmpl_var sender.email -->
 
 * E-Mail an die Mailing-Liste senden
     mailto:<!-- tmpl_var list_settings.discussion_pop_email -->
+<!-- tmpl_if profile_settings.enabled -->
 * Verwalten Sie Ihr Abonnement: 
     <!-- tmpl_var PROGRAM_URL -->/profile_login/<!-- tmpl_var subscriber.email_name -->/<!-- tmpl_var subscriber.email_domain -->/
-<!-- tmpl_if list_settings.private_list -->
-* Abonnement beenden 
-	<!-- tmpl_var list_unsubscribe_link -->
-<!-- tmpl_else -->
-* Abmelden
-	<!-- tmpl_var list_unsubscribe_link -->
 <!-- /tmpl_if -->
+<!-- tmpl_if list_settings.private_list --><!-- tmpl_if show_request_removal_links -->
+* Abonnement beenden 
+	<!-- tmpl_var list_unsubscribe_link --><!-- /tmpl_if --><!-- tmpl_else -->
+* Abmelden
+	<!-- tmpl_var list_unsubscribe_link --><!-- /tmpl_if -->
+
+
+
+

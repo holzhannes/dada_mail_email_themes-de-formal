@@ -21,5 +21,9 @@ und verwenden dafür die E-Mail-Adresse: <!-- tmpl_var subscriber.email -->
 Von: <!-- tmpl_var list_settings.list_owner_email -->
 <!-- tmpl_var list_settings.physical_address -->
 
-Sofort abmelden:
-<!-- tmpl_var list_unsubscribe_link -->
+<!-- tmpl_if list_settings.private_list --><!-- tmpl_if show_request_removal_links -->
+* Abonnement beenden 
+	<!-- tmpl_var list_unsubscribe_link --><!-- /tmpl_if --><!-- tmpl_else -->
+* Abmelden
+	<!-- tmpl_var list_unsubscribe_link --><!-- /tmpl_if -->
+

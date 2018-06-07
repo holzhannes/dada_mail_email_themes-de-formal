@@ -1,5 +1,5 @@
 ---
-subject: Ihre Nachricht an: <!-- tmpl_var list_settings.list_name --> mit dem Betreff: <!-- tmpl_var message_subject --> wurde abgelehnt.
+subject: Nachricht to: <!-- tmpl_var list_settings.list_name --> Subject, <!-- tmpl_var message_subject --> rejected.
 ---
 
 Guten Tag, 
