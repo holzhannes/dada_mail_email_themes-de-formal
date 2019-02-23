@@ -15,7 +15,7 @@ der Listen-Inhaber von "<!-- tmpl_var list_settings.list_name -->" (<!-- tmpl_va
 <!-- tmpl_var list_settings.info --> 
 
 * Wenn Sie sich anmelden möchten, klicken Sie einfach auf den untenstehenden Link: 
-<!-- tmpl_var S_PROGRAM_URL -->/subscribe_landing/<!-- tmpl_var list_settings.list -->/
+<!-- tmpl_var S_PROGRAM_URL -->/subscribe_landing/<!-- tmpl_var list_settings.list -->/<!-- tmpl_var subscriber.email_name -->/<!-- tmpl_var subscriber.email_domain -->/
 
 <!-- tmpl_if list_settings.group_list --> 
 * Diese Mailingliste ist eine Gruppendiskussion-Liste <!-- tmpl_if list_settings.enable_moderation -->(moderiert)<!-- tmpl_else -->(unmoderiert)<!-- /tmpl_if -->. Sobald Sie die Liste abonniert haben, können Sie E-Mails darüber versenden, indem Sie diese an <!-- tmpl_var list_settings.discussion_pop_email --> senden. 

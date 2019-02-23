@@ -1,7 +1,7 @@
 ---
-version: de.11.0.1
-compatible: Dada Mail > 11.0.0 
-date: 2018-06-07
+version: de.11.2.7
+compatible: Dada Mail >= 11.2.7 
+date: 2019-02-23
 ---
 
 # Dada Mail German E-Mail themes

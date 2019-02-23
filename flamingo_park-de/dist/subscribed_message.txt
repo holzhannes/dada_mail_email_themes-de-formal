@@ -33,11 +33,11 @@ Bitte speichern Sie diese E-Mail-Nachricht um im Bedarfsfall zu Ihrer Informatio
 * Brauchen Sie Hilfe? Kontakt: 
 <!-- tmpl_var list_settings.list_owner_email -->
 
-<!-- tmpl_if list_settings.private_list --><!-- tmpl_if show_request_removal_links -->
+<!-- tmpl_if list_settings.private_list --><!-- tmpl_if list_settings.show_request_removal_links -->
 * Abonnement beenden 
 <!-- tmpl_var list_unsubscribe_link -->
-Abmeldelinks (wie dieser) verfallen. Verwenden Sie daher bitte immer den aktuellesten Link 
-z. B. in der zuletzt erhaltenen E-Mail der Mailing-Liste.
+&quote;Abonnement beenden&quote; links (like this one) do expire, so look for the freshest
+request links in the mailing list messages that you will receive.
 <!-- /tmpl_if --><!-- tmpl_else -->
 * Abmelden
 <!-- tmpl_var list_unsubscribe_link -->

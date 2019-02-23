@@ -1,4 +1,5 @@
 ---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
 subject: <!-- tmpl_var list_settings.list_name --> Nachricht
 ---
 Von: <!-- tmpl_var sender.email -->
@@ -13,12 +14,8 @@ Von: <!-- tmpl_var sender.email -->
 * Verwalten Sie Ihr Abonnement: 
     <!-- tmpl_var PROGRAM_URL -->/profile_login/<!-- tmpl_var subscriber.email_name -->/<!-- tmpl_var subscriber.email_domain -->/
 <!-- /tmpl_if -->
-<!-- tmpl_if list_settings.private_list --><!-- tmpl_if show_request_removal_links -->
+<!-- tmpl_if list_settings.private_list --><!-- tmpl_if list_settings.show_request_removal_links -->
 * Abonnement beenden 
 	<!-- tmpl_var list_unsubscribe_link --><!-- /tmpl_if --><!-- tmpl_else -->
 * Abmelden
 	<!-- tmpl_var list_unsubscribe_link --><!-- /tmpl_if -->
-
-
-
-

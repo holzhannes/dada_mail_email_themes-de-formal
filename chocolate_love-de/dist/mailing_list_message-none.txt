@@ -1,0 +1,7 @@
+---
+to_phrase: <!-- tmpl_var list_settings.list_name --> Abonnent
+from_phrase: <!-- tmpl_var list_settings.list_name -->
+subject: <!-- tmpl_var list_settings.list_name --> Nachricht
+---
+
+<!-- tmpl_var message_body -->

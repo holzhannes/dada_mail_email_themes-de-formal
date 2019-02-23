@@ -1399,3 +1399,33 @@ table.button.youtube table td {
 
 .footer .container {
   background: #990000; }
+
+table.callout {
+  margin-bottom: 16px;
+  Margin-bottom: 16px; }
+
+th.callout-inner {
+  width: 100%;
+  border: 1px solid #cbcbcb;
+  padding: 10px;
+  background: #fefefe; }
+  th.callout-inner.primary {
+    background: #def0fc;
+    border: 1px solid #444444;
+    color: #0a0a0a; }
+  th.callout-inner.secondary {
+    background: #ebebeb;
+    border: 1px solid #444444;
+    color: #0a0a0a; }
+  th.callout-inner.success {
+    background: #e1faea;
+    border: 1px solid #1b9448;
+    color: #0a0a0a; }
+  th.callout-inner.warning {
+    background: #fff3d9;
+    border: 1px solid #996800;
+    color: #0a0a0a; }
+  th.callout-inner.alert {
+    background: #fce6e2;
+    border: 1px solid #b42912;
+    color: #0a0a0a; }

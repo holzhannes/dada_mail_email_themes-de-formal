@@ -1,5 +1,5 @@
 ---
-subject: Nachricht to: <!-- tmpl_var list_settings.list_name --> Subject, <!-- tmpl_var message_subject --> rejected.
+subject: Nachricht to, <!-- tmpl_var list_settings.list_name --> Subject, <!-- tmpl_var message_subject --> rejected.
 ---
 
 Guten Tag, 

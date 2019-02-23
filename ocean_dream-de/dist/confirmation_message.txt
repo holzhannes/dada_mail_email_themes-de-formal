@@ -20,5 +20,5 @@ Diese E-Mail ist Teil der doppelten Bestätigung und wurde zum Schutz der
 Privatsphäre des Besitzers dieser E-Mail-Adresse (das sind Sie!) versendet.
 Die doppelte Bestätigung garantiert, dass sich nur der Besitzer einer E-Mail-Adresse für eine Mailing-Liste anmelden kann.
 
-Datenschutzerklärung für: <!-- tmpl_var list_settings.list_name -->:
+Datenschutzerklärung für <!-- tmpl_var list_settings.list_name -->:
 <!-- tmpl_var list_settings.privacy_policy -->
